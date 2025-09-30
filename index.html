@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather Station Map</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  </head>
+  <body>
+    <h2>Weather Station Locations in Malaysia</h2>
+    <div id="vis"></div>
+    <script type="text/javascript">
+      vegaEmbed('#vis', 'map.json');
+    </script>
+  </body>
+</html>
